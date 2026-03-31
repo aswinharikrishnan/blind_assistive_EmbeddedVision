@@ -1,0 +1,50 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables (VERY IMPORTANT)
+.env
+
+# Model weights (huge files - NEVER push)
+*.weights
+
+# YOLO / config backups (optional ignore if large)
+*.cfg.bak
+
+# Temporary images / streams
+*.jpg
+*.png
+*.jpeg
+
+# ESP32 stream cache (if saved locally)
+*.tmp
+
+# Numpy / data dumps
+*.npy
+
+# Build / dist
+build/
+dist/
+
+# Jupyter checkpoints (if any)
+.ipynb_checkpoints/
+
+# Git ignore itself backup
+*.bak
